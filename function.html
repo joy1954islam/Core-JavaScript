@@ -7,13 +7,28 @@
 <script type="text/javascript">
 	
 	
-	function add(a)
+	function add(a,b)
 	{
-		document.write(a + 100);
+		document.write(a + b);
+	}
+	function sub(a,b)
+	{
+		document.write(a - b);
+	}
+	function mult(a,b)
+	{
+		document.write(a * b);
+	}
+	function div(a,b)
+	{
+		document.write(a / b);
 	}
 	var num = 100;
-	
-	add(num);
+	var num1 = 50;
+	add(num,num1);
+	sub(num,num1);
+	mult(num,num1);
+	div(num,num1);
 </script>
 </body>
 </html>
