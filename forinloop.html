@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>for in loop</title>
+</head>
+<body>
+ 
+ <script type="text/javascript">
+ 	var person = {fname:"John", lname:"Doe", age:25};
+	var i;
+	document.write("====== persons ==== <br>");
+	for (var i in person) {
+	  document.write(i + "<br>");
+	}
+	document.write("====== cars ==== <br>");
+	var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+	var x;
+
+	for (x of cars) {
+	  document.write(x + "<br >");
+	}
+	</script>
+</body>
+</html>
