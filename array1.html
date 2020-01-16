@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>array</title>
+</head>
+<body>
+<script type="text/javascript">
+	var cars = ["Saab","Volvo","BMW"];
+    document.write(cars[0] + "<br>");
+    document.write(cars[1] + "<br>");
+    document.write(cars[2] + "<br>");
+    document.write("<h1><b>Arrary Construction</b></h1> <br>");
+    var cars  = new Array("Saab","Volvo","BMW");
+    document.write(cars[0] + "<br>");
+    document.write(cars[1] + "<br>");
+    document.write(cars[2] + "<br>");
+    document.write('<h1><b>Arrary Construction print by "for  loop"</b></h1> <br>');
+    for (var i=0;i<3;i++ )
+    {
+    	document.write(cars[i]+ "<br>");
+   
+    }
+    document.write('<h1><b>Arrary Construction print by "for loop and length"</b></h1> <br>');
+    for (var i=0;i<cars.length;i++ )
+    {
+    	document.write(cars[i]+ "<br>");
+   
+    }
+    document.write('<h1><b>Arrary Construction print by "for of loop"</b></h1> <br>');
+    for (var i of cars)
+    {
+    	document.write(i+ "<br>");
+   
+    }
+     document.write("<h1><b>Arrary Modify</b></h1> <br>");
+     cars[0] = "joy islam";
+ 	 document.write(cars + "<br>");
+
+ 	 document.write("<h1><b>Arrary Length</b></h1> <br>");
+ 	 document.write("array length is "+ cars.length + "<br>");
+ 	 document.write("<h1><b>Arrary Sorting</b></h1> <br>");
+ 	 document.write("array Sorting is "+ cars.sort() + "<br>");
+	 document.write("<h1><b>Arrary reverse</b></h1> <br>");
+ 	 document.write("array reverse is "+ cars.reverse() + "<br>");
+
+
+
+
+
+
+
+
+
+
+
+ 	 document.write("<h1><b>Arrary Removing</b></h1> <br>");
+ 	 document.write(cars + "<br>");
+ 	 delete cars[0];
+ 	 document.write(cars + "<br>");
+ 	 document.write(cars[0] + "<br>");
+ </script>
+</body>
+</html>
