@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>array user input</title>
+</head>
+<body>
+<script type="text/javascript">
+	var num = prompt("enter the insert data in array");
+    var student = [];
+    // var student = new Array(num);
+    for (var i =0;i<num;i++)
+    {
+         student[i] = prompt("enter student id ????");
+    }
+	for (var i =0;i<num;i++)
+    {
+         document.write("student id is ===="+ student[i] + "<br>");
+    }
+    document.write("for of loop <br>");
+    for(var id of student)
+    {
+    	 document.write("student id is ===="+ id + "<br>");
+    }
+</script>
+</body>
+</html>

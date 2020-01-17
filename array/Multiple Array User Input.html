@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2D array user input</title>
+</head>
+<body>
+<script type="text/javascript">
+	var student =[];
+	// var student = new Array([],[]);
+	rows = prompt("enter the rows value ??");
+    columns = prompt("enter the columns value ??");
+    var student = new Array(rows);
+    for(var i=0;i<rows;i++)
+    {
+    	student[i] = new Array(columns);
+    }
+	for(var i=0;i<rows;i++)
+	{
+		for(var j=0;j<columns;j++)
+		{
+			student[i][j] = prompt("enter the value??");
+			
+		}
+	
+	}
+	for(var i=0;i<rows;i++)
+	{
+		for(var j=0;j<columns;j++)
+		{
+			document.write( student[i][j] + "      ");
+			
+		}
+		document.write("<br>");
+	}
+</script>
+</body>
+</html>
