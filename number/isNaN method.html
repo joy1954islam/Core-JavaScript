@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>isnan</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+
+		var a = 3.14;
+		document.write(isNaN(a) + " " + typeof(a)+ "<br>");
+		var b = 3;
+		document.write(isNaN(b) + " " + typeof(b)+ "<br>");
+		var x = 123e5;
+		document.write(isNaN(x) + " " + typeof(x)+ "<br>");
+		var y = 123e-5;
+		document.write(isNaN(y) + " " + typeof(y)+ "<br>");
+		var c = (0.2*10 + 0.1*10) / 10;
+		document.write(isNaN(c) + " " + typeof(c)+ "<br>");
+		var d = "200";
+		document.write(isNaN(d) + " " + typeof(d)+ "<br>");
+		var e = 100 / "10";
+		document.write(isNaN(e) + " " + typeof(e)+ "<br>");
+		var d = "Hello";
+		document.write(isNaN(d) + " " + typeof(d)+ "<br>");
+	</script>
+
+</body>
+</html>

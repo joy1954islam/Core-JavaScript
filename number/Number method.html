@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		document.write(Number(true) + "<br>");          // returns 1
+		document.write(Number(false) + "<br>");         // returns 0
+		document.write(Number("10") + "<br>");          // returns 10
+		document.write(Number("  10") + "<br>");        // returns 10
+		document.write(Number("10  ") + "<br>");        // returns 10
+		document.write(Number(" 10  ") + "<br>");       // returns 10
+		document.write(Number("10.33") + "<br>");       // returns 10.33
+		document.write(Number("10,33") + "<br>");       // returns NaN
+		document.write(Number("10 33") + "<br>");       // returns NaN
+		document.write(Number("John") + "<br>");        // returns NaN
+	</script>
+
+</body>
+</html>

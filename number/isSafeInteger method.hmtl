@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var x = 99;
+		document.write(Number.isSafeInteger(x) + "<br>");  
+		var x = -99;
+		document.write(Number.isSafeInteger(x) + "<br>");    
+		var x = 99.12;        
+		document.write(Number.isSafeInteger(x)  + "<br>");   
+		var x ="hello";     
+		document.write(Number.isSafeInteger(x) + "<br>");     
+		var x =111111111111111136479614315665489745665654132132898765432132125465465654;     
+		document.write(Number.isSafeInteger(x) + "<br>");          
+		   
+	</script>
+
+</body>
+</html>
